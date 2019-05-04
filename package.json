@@ -1,0 +1,25 @@
+{
+  "name": "poka",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "simple typescript decorators for console.logging",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "decorators",
+    "console",
+    "log",
+    "poka",
+    "group",
+    "time"
+  ],
+  "author": "Jakub Hajduk",
+  "license": "ISC",
+  "files": [
+    "/dist/*"
+  ]
+}

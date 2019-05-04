@@ -1,0 +1,23 @@
+{
+    "include": ["src/index.ts", "src/*"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "outDir": "dist/",
+      "target": "es5",
+      "module":"commonjs",
+      "sourceMap": false,
+      "declaration": true,
+      "checkJs": false,
+      "allowUnreachableCode": true,
+      "lib": [
+        "es5",
+        "dom",
+        "es2015",
+        "es2015.core",
+        "es2015.collection"
+      ],
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "compileOnSave": true
+  }
