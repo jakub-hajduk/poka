@@ -1,4 +1,4 @@
-export function hooks(): ClassDecorator {
+export function Hooks(): ClassDecorator {
     return (target: Function) => {
         ['ngOnInit', 'ngOnChanges', 'ngOnDestroy'].forEach((hook) => {
             const original = target.prototype[hook];

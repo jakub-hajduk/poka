@@ -1,4 +1,4 @@
-export function methods(): ClassDecorator {
+export function Methods(): ClassDecorator {
     return (target: Function) => {
         Object.keys(target.prototype).forEach((methodName: string) => {
             const original = target.prototype[methodName];

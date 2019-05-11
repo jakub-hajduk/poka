@@ -1,4 +1,4 @@
-export function output(): MethodDecorator {
+export function Output(): MethodDecorator {
     return (target: Object, propertyKey: string, descriptor: PropertyDescriptor) => {
         const original: Function = descriptor.value;
 

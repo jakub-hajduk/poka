@@ -1,4 +1,4 @@
-export function changes(): MethodDecorator {
+export function Changes(): MethodDecorator {
     return (target: Object, propertyKey: string, descriptor: PropertyDescriptor) => {
         if(propertyKey === 'ngOnChanges') {
             const original = descriptor.value;

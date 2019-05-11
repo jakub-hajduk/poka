@@ -1,4 +1,4 @@
-export function group(): MethodDecorator {
+export function Group(): MethodDecorator {
     return (target: Object, propertyKey: string, descriptor: PropertyDescriptor) => {
         const original: Function = descriptor.value;
 

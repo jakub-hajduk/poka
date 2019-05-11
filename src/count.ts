@@ -1,4 +1,4 @@
-export function count(): MethodDecorator {
+export function Count(): MethodDecorator {
     return (target: Object, propertyKey: string, descriptor: PropertyDescriptor) => {
         const original: Function = descriptor.value;
 
