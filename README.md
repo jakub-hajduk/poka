@@ -24,3 +24,9 @@ It logs what decorated method returns
 ## @Time()
 ### Method decoraror
 Logs how much time method execution take
+
+## @Caller() - EXPERIMENTAL
+### Method decorator
+Logs from which method the current one was called. At least it should. 
+
+It may cause errors and not work correctly, sincce it is experimental decorator ;)
