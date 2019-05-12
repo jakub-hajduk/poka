@@ -1,6 +1,6 @@
 {
   "name": "poka",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "description": "simple typescript decorators for console.logging",
   "typings": "./dist/index.d.ts",
